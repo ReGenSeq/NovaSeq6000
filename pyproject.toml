@@ -3,12 +3,12 @@ requires = ["uv_build>=0.8.5,<0.9.0"]
 build-backend = "uv_build"
 
 [project]
-name = "pyseq"  # UPDATE to sequencer-alias
+name = "renovaseq6000"
 version = "v1.1.0-alpha" # Start at "v0.0.0-alpha"
 authors = [
-  { name="Kunal Pandit", email="kpandit8387@gmail.com" }, # UPDATE
+  { name="Kunal Pandit", email="kpandit8387@gmail.com" },
 ]
-description = "Open source control sofware for [sequencer make & model]" #UPDATE
+description = "Open source control sofware for Illumina NovaSeq 6000"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
@@ -34,8 +34,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/PySeqEcosystem"
-Issues = "https://github.com/PySeqEcosystem/{sequencer-alias}" # UPDATE
+Homepage = "https://github.com/ReGenSeq"
+Issues = "https://github.com/ReGenSeq/NovaSeq6000"
 
 
 [tool.pytest.ini_options]
