@@ -1,0 +1,1 @@
+ALIAS = renovaseq6000
